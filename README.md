@@ -12,6 +12,8 @@ geprüft, die Kennzahlen stehen in [`KENNZAHLEN.md`](KENNZAHLEN.md).
 - [ ] den Paketnamen `app` (Ordner `src/app`, `pyproject.toml`, `--cov=app` in `.github/workflows/ci.yml`, Imports)
 - [ ] `scripts/lock.sh` laufen lassen, sobald eigene Abhängigkeiten dazukommen
 - [ ] die Einstellungen aus [`SETUP.md`](https://github.com/waldonso2/quality-kit/blob/main/SETUP.md) setzen
+- [ ] bei einem **privaten** Repo: unter *Settings → Advanced Security* *Dependency graph* und *Code Security*
+      einschalten, sonst scheitern `dependency-review` und CodeQL (ein öffentliches Repo hat beides kostenlos)
 
 ## Entwickeln
 
